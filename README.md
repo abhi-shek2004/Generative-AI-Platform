@@ -1,6 +1,6 @@
 # CortexAI - Enterprise Generative AI Orchestration Platform
 
-CoetexAI is a production-grade, state-of-the-art Generative AI landing and diagnostic showcase website. It integrates ultra-premium dark/glassmorphic web design, real-time WebGL vector embeddings modeling using Three.js, a local FastAPI simulated RAG database pipeline, and containerized Docker-compose orchestration.
+CortexAI is a production-grade, state-of-the-art Generative AI landing and diagnostic showcase website. It integrates ultra-premium dark/glassmorphic web design, real-time WebGL vector embeddings modeling using Three.js, a local FastAPI simulated RAG database pipeline, and containerized Docker-compose orchestration.
 
 ## 🚀 Key Features
 
