@@ -80,3 +80,40 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(168, 85, 247, 0.6);
 }
+
+/* Premium Cybernetic Grid Background Overlay */
+.cyber-grid {
+  background-size: 50px 50px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.cyber-glow-radial {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.1) 0%, rgba(45, 212, 191, 0) 75%);
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.cyber-glow-radial-2 {
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(45, 212, 191, 0.08) 0%, rgba(168, 85, 247, 0) 75%);
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 1;
+}
+

@@ -208,6 +208,13 @@ export default function Home() {
         <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260324_024928_1efd0b0d-6c02-45a8-8847-1030900c4f63.mp4" type="video/mp4" />
       </video>
 
+      {/* Premium Ambient Cyber Grids & Glows */}
+      <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
+        <div className="cyber-grid" />
+        <div className="cyber-glow-radial animate-pulse duration-[8000ms]" />
+        <div className="cyber-glow-radial-2 animate-pulse duration-[12000ms]" />
+      </div>
+
       {/* 3D Dynamic Particle Neural Network Background */}
       <NeuralNetwork />
 
