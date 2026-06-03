@@ -1,4 +1,4 @@
-# <div align="center">🧠 CortexAI</div>
+# <div align="center">🧠 ViperAI</div>
 ### <div align="center">Enterprise Generative AI Orchestration & Live RAG Platform</div>
 
 <div align="center">
@@ -16,10 +16,10 @@
 
 ---
 
-**CortexAI** is an ultra-premium, investor-grade enterprise landing page and interactive Generative AI pipeline dashboard. It fuses raw WebGL interactive vector simulations, real-time metrics trackers, and a comprehensive local FastAPI RAG backend powered directly by the **`openai/gpt-oss-120b`** reasoning model on the NVIDIA Build Program.
+**ViperAI** is an ultra-premium, investor-grade enterprise landing page and interactive Generative AI pipeline dashboard. It fuses raw WebGL interactive vector simulations, real-time metrics trackers, and a comprehensive local FastAPI RAG backend powered directly by the **`openai/gpt-oss-120b`** reasoning model on the NVIDIA Build Program.
 
 > [!IMPORTANT]
-> **Production Ready / Live Connected**: cortexAI's Python backend is fully integrated with NVIDIA's inference gateway using standard `Authorization: Bearer` keys, complete with active reasoning-step extraction and graceful local deterministic fallbacks for 100% presentation safety.
+> **Production Ready / Live Connected**: viperAI's Python backend is fully integrated with NVIDIA's inference gateway using standard `Authorization: Bearer` keys, complete with active reasoning-step extraction and graceful local deterministic fallbacks for 100% presentation safety.
 
 ---
 
@@ -34,7 +34,7 @@
 
 ## 📐 System Architecture
 
-CortexAI operates on a multi-stage context-augmented retrieval pipeline:
+ViperAI operates on a multi-stage context-augmented retrieval pipeline:
 
 ```mermaid
 graph TD
@@ -140,7 +140,7 @@ docker-compose up --build
 ---
 
 ## 🛡️ Robust Failover & Fallback Mechanism
-CortexAI guarantees a seamless presentation experience. If the local `.env` is missing an `NVIDIA_API_KEY`, or if requests fail due to rate-limiting/timeouts, the backend captures the error gracefully and outputs the warning directly to the diagnostic logs while rendering high-fidelity, deterministic responses locally.
+ViperAI guarantees a seamless presentation experience. If the local `.env` is missing an `NVIDIA_API_KEY`, or if requests fail due to rate-limiting/timeouts, the backend captures the error gracefully and outputs the warning directly to the diagnostic logs while rendering high-fidelity, deterministic responses locally.
 
 ```text
 - 🤖 Invoking NVIDIA GPT-OSS-120B model for context synthesis...
@@ -151,5 +151,5 @@ CortexAI guarantees a seamless presentation experience. If the local `.env` is m
 ---
 
 <div align="center">
-  <sub>Created for premium enterprise Generative AI showcases. © 2026 CortexAI Systems Inc.</sub>
+  <sub>Created for premium enterprise Generative AI showcases. © 2026 ViperAI Systems Inc.</sub>
 </div>
